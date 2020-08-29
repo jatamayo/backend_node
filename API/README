@@ -1,0 +1,7 @@
+*--- Dependencias utilizadas en ambiente de Desarrollo ---*
+npm install -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier
+
+*--- Dependencias necesarias ---*
+npm install dotenv
+npm install express
+npx mrm lint-staged
