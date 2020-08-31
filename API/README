@@ -5,3 +5,7 @@ npm install -D nodemon eslint eslint-config-prettier eslint-plugin-prettier pret
 npm install dotenv
 npm install express
 npx mrm lint-staged
+
+
+*--- Middle wares populares ---*
+http://expressjs.com/en/resources/middleware.html
