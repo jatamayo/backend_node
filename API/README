@@ -9,3 +9,16 @@ npx mrm lint-staged
 
 *--- Middle wares populares ---*
 http://expressjs.com/en/resources/middleware.html
+
+
+*--- test ---*
+npm install -D mocha supertest sinon proxyquire
+
+mocha: nos ayuda a correr los test
+supertest: levanta un servidor temporal
+sinon: crea mocks para tests
+proxyquire inyecta los mocks cuando se requieren los paquetes
+
+*--- test recomendado ---*
+Les recomiendo jest para los test unitarios, tanto en el front como en el back
+

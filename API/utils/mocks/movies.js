@@ -153,7 +153,7 @@ const moviesMock = [
     }
 ]
 
-function filteredMoviesMocks(){
+function filteredMoviesMocks(tag){
     return moviesMock.filter(movie => movie.tags.includes(tag));
 }
 
